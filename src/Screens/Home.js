@@ -13,6 +13,7 @@ import img6 from "../images/Other 17.png";
 import img7 from "../images/Screen Shot 2022-05-09 at 10.28.png";
 
 import BodyContainer from "../components/BodyContainer";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -89,7 +90,7 @@ function Home() {
                 </p>
                 </div>
             </div>
-            <img className="girl" src={img7} />
+            <img className="girl" src={img7}  alt="girl"/>
           </div>
           <div className="testimony-people">
             <div className="testimonials">
@@ -101,7 +102,7 @@ function Home() {
                 </p>
                 </div>
             </div>
-            <img className="girl" src={img7} />
+            <img className="girl" src={img7} alt="girl"/>
           </div>
           <div className="testimony-people">
             <div className="testimonials">
@@ -113,7 +114,7 @@ function Home() {
                 </p>
                 </div>
             </div>
-            <img className="girl" src={img7} />
+            <img className="girl" src={img7} alt="girl" />
           </div>
         </div>
       </div>
@@ -122,6 +123,8 @@ function Home() {
         <h2>BE PART OF THE NEXT BIG THING</h2>
         <Button className="third">GET STARTED</Button>
       </div>
+      <Footer/>
+      <div className="radial-gradient-two"></div>
     </div>
   );
 }
