@@ -242,6 +242,10 @@ li {
   font-family: "Montserrat", sans-serif ;
   font-size: 18px;
 }
+.logo-container{
+  display: grid;
+    justify-items: center;
+}
 .olivia p{
   padding: 0rem 1rem;
   
