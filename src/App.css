@@ -87,8 +87,11 @@ li {
 
 .text-hero-section {
   color: white;
+  display: grid;
+  justify-items: center;
   
-  width: 35%;
+  
+
  
 
 
@@ -99,13 +102,14 @@ li {
   line-height: 1.5rem;
 }
 .text-hero-section h1 {
-  font-size: 87px;
+  font-size: 57px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  width: 67%;
 }
 .text-hero-section p {
   width: 60%;
@@ -116,9 +120,8 @@ li {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-.image-hero-section{
-  
-  margin-left: 2rem;
+.image-hero-section img{
+  width: 490px;
 }
 
 
@@ -155,10 +158,12 @@ li {
 
 .text{
   color: white;
- 
-  margin-top: 10rem;
+ padding: 3rem 5rem;
+  
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  justify-items: center;
 }
 
 .text h4{
@@ -169,19 +174,17 @@ li {
 .text h2{
   font-family: "Montserrat", sans-serif ;
   font-weight: 700;
-  font-size: 57px;
-  width: 79%;
+  font-size: 50px;
+  
   margin-top: 0rem;
   margin-bottom: 0rem;
 }
-.text-container{
-  margin-top: 3rem;
-  flex: 1;
-}
+
+
 .text-container p{
   font-family: "Montserrat", sans-serif;
  font-weight: 200;
- width: 50%;
+ width: 82%;
  line-height: 1.5rem;
  
 }
@@ -194,6 +197,10 @@ li {
   mix-blend-mode: luminosity;
   margin-top: -4.5rem;
   
+}
+.testimony-text{
+  display: grid;
+  justify-items: center;
 }
 .testimony-container{
   display: grid;
@@ -211,10 +218,10 @@ li {
 .testimony h2{
   font-family: "Montserrat", sans-serif ;
   font-weight: 700;
-  font-size: 57px;
+  font-size: 53px;
   text-align: center;
   color: white;
-  width: 45%;
+  width: 50%;
   
 }
 
@@ -236,7 +243,7 @@ li {
   font-size: 18px;
 }
 .olivia p{
-  width: 80%;
+  padding: 0rem 1rem;
   
   font-family: "Montserrat", sans-serif ;
   font-size: 14px;
@@ -244,12 +251,13 @@ li {
 }
 
 .radial-gradient{
-    
-    width: 84%;
+    display: grid;
+    justify-items: center;
+   
     height: 23rem;
     background-image: linear-gradient(to right top, #8A8ADA, #86CFD0, #C1C1C1);
     border-radius: 30px;
-    margin-top: 7rem;
+    margin-top: 4rem;
 }
 
 
@@ -264,8 +272,8 @@ padding-top: 4rem;
 .radial-gradient h2{
   font-family: 'Montserrat';
   font-size: 37px;
-  
-  
+  margin-top: 0rem;
+  width: 30%;
   font-weight: bold;
   color: white;
   
@@ -288,8 +296,10 @@ padding-top: 4rem;
   
   flex: 1;
 }
-
-
+.logo h3{
+  margin: 0rem;
+  padding: 4rem;
+}
 .footer p {
   padding: 1rem;
   font-family: 'Montserrat';
@@ -360,8 +370,12 @@ input{
   flex-direction: column;
   align-items: center;
 }
+.text-hero-section h1{
+      text-align: center;
+      font-size: 40px;
+}
 .text-hero-section p {
-  width: 50%;
+  
   margin-top: 0rem;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -371,16 +385,13 @@ input{
   justify-content: center;
 }
 
-  .text-hero-section  h1{
-    font-size: 40px;
-    margin-left: 4rem;
-  }
+  
   .text{
     
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin-top: 4rem;
+   
   }
   .text.first{
     display: flex;
@@ -495,10 +506,28 @@ input{
 }
 
 
-@media (max-width : 460px){
-
+@media (max-width : 520px){
+p{
+  font-size: 12px !important;
+}
 .circletwo{
   width: 13rem;
 }
+.nav-bar{
+  display: grid;
+  justify-content: center;
+}
+.logo h3{
+  padding:2rem;
+}
 
+.text-hero-section h1{
+  font-size: 25px;
+}
+h2{
+  font-size: 20px !important;
+}
+.testimony-container{
+  margin-top: 2rem;
+}
 }

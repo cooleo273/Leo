@@ -19,7 +19,6 @@ function Home() {
   return (
     <div>
       <div>
-        
         <div className="circletwo"></div>
       </div>
       <Navbar />
@@ -77,47 +76,46 @@ function Home() {
         </div>
       </BodyContainer>
       <div className="testimony">
-        <h4>TESTIMONY</h4>
-        <h2>Read What Others Have To Say</h2>
+        <div className="testimony-text">
+          <h4>TESTIMONY</h4>
+          <h2>Read What Others Have To Say</h2>
+        </div>
         <div className="testimony-container">
           <div className="testimony-people">
             <div className="testimonials">
-            <div className="olivia">
-              <img className="girl" src={img7}  alt="girl"/>
-              <h5>OLIVIA COLE</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+              <div className="olivia">
+                <img className="girl" src={img7} alt="girl" />
+                <h5>OLIVIA COLE</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
                 </p>
-                </div>
+              </div>
             </div>
-            
-          </div>
-          <div className="testimony-people">
-            <div className="testimonials">
-            <div className="olivia">
-              <img className="girl" src={img7} alt="girl"/>
-              <h5>OLIVIA COLE</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                ullamcorper scelerisque mi, in malesuada felis malesuada vel.
-                </p>
-                </div>
-            </div>
-            
           </div>
           <div className="testimony-people">
             <div className="testimonials">
               <div className="olivia">
-              <img className="girl" src={img7} alt="girl" />
-              <h5>OLIVIA COLE</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                <img className="girl" src={img7} alt="girl" />
+                <h5>OLIVIA COLE</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
                 </p>
-                </div>
+              </div>
             </div>
-            
+          </div>
+          <div className="testimony-people">
+            <div className="testimonials">
+              <div className="olivia">
+                <img className="girl" src={img7} alt="girl" />
+                <h5>OLIVIA COLE</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -126,7 +124,7 @@ function Home() {
         <h2>BE PART OF THE NEXT BIG THING</h2>
         <Button className="third">GET STARTED</Button>
       </div>
-      <Footer/>
+      <Footer />
       <div className="radial-gradient-two"></div>
     </div>
   );
