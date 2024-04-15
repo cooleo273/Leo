@@ -9,7 +9,7 @@
   position: fixed;
   right: -20rem;
   top: 23rem;
-  overflow-x: hidden;
+  
 }
 .circletwo {
   display: flex;
@@ -27,13 +27,13 @@ li {
   color: white;
   text-decoration: none;
   list-style: none;
-  padding: 2rem;
+  padding: 1rem;
   align-content: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 .list {
-  margin-left: 40rem;
+  flex: 1;
   display: flex;
 }
 .nav-bar {
@@ -41,8 +41,8 @@ li {
 }
 
 .logo {
-  margin: 2rem;
-  margin-left: 10rem;
+  
+  flex: 2;
   color: white;
 }
 .btn-component {
@@ -80,14 +80,14 @@ li {
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
  
-  margin-left: 33rem;
+ 
 }
 
    
 
 .text-hero-section {
   color: white;
-  margin-left: 10rem;
+  
   width: 35%;
  
 
@@ -113,20 +113,14 @@ li {
   font-family: "Montserrat", sans-serif;
 }
 .Hero-section{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .image-hero-section{
   
   margin-left: 2rem;
-  width: 40rem;
-
 }
-.image-hero-section img{
-  
-  
-  width: 45rem;
 
-}
 
 .buttons{
   display: flex;
@@ -136,17 +130,16 @@ li {
 
 .logos{
   background-color: #0c0a3a;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 80%;
   height: 5rem;
-  margin-left: 10rem;
-  
- 
   align-items: center;
   border-radius: 23px;
 }
 
 .logos img{
+
   width: 14rem;
   height: 2rem;
   margin-left: 3.5rem;
@@ -156,16 +149,16 @@ li {
 .logo-container h4{
   font-family: "Montserrat", sans-serif;
   color: white;
-  margin-left: 10rem;
+  
   margin-top: 7rem;
 }
 
 .text{
   color: white;
-  margin-left: 10rem;
+ 
   margin-top: 10rem;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .text h4{
@@ -199,11 +192,14 @@ li {
 .girl{
   clip-path: circle();
   mix-blend-mode: luminosity;
-  position: absolute;
-  top: 150rem;
-  margin-left: 16rem;
+  margin-top: -4.5rem;
+  
 }
-
+.testimony-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+}
 .testimony h4{
      text-align: center;
     color: #AAD9D9;
@@ -219,12 +215,11 @@ li {
   text-align: center;
   color: white;
   width: 45%;
-  margin-left: 27rem;
+  
 }
 
 .testimonials{
   background-color: #0c0a3a;
-  margin-left: 10rem;
   
   width: 20rem;
   height: 15rem;
@@ -234,25 +229,22 @@ li {
   text-align: center;
 }
 
-.testimony-container{
-  display: flex;
-  flex-direction: row;
-}
 
 .olivia h5{
-  padding-top: 5rem;
+  margin-top: 0rem;
   font-family: "Montserrat", sans-serif ;
   font-size: 18px;
 }
 .olivia p{
   width: 80%;
-  margin-left: 2rem;
+  
   font-family: "Montserrat", sans-serif ;
+  font-size: 14px;
 
 }
 
 .radial-gradient{
-    margin-left: 10rem;
+    
     width: 84%;
     height: 23rem;
     background-image: linear-gradient(to right top, #8A8ADA, #86CFD0, #C1C1C1);
@@ -272,11 +264,11 @@ padding-top: 4rem;
 .radial-gradient h2{
   font-family: 'Montserrat';
   font-size: 37px;
-  width: 27rem;
+  
   
   font-weight: bold;
   color: white;
-  margin-left: 30rem;
+  
 
 }
 
@@ -293,7 +285,7 @@ padding-top: 4rem;
 }
 
 .krypto{
-  margin-left: 10rem;
+  
   flex: 1;
 }
 
@@ -325,6 +317,10 @@ input{
     border: none;
 
 }
+.testimony-people{
+  display: flex;
+  justify-content: center;
+}
 
 .btn-component.fourth{
   background-color: #8a8ada;
@@ -343,4 +339,166 @@ input{
   background-image: linear-gradient(to right top, #8A8ADA, #86CFD0, #C1C1C1);
   border-radius: 3px;
   margin-top: 7rem;
+}
+
+
+@media (max-width : 1024px){
+  body{
+    
+    justify-content: center;
+  }
+  .Hero-section {
+    display: flex;
+    
+    flex-direction: column;
+    
+    align-items: center;
+}
+.text-hero-section{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-hero-section p {
+  width: 50%;
+  margin-top: 0rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.logos img{
+  display: flex;
+  justify-content: center;
+}
+
+  .text-hero-section  h1{
+    font-size: 40px;
+    margin-left: 4rem;
+  }
+  .text{
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 4rem;
+  }
+  .text.first{
+    display: flex;
+   flex-direction: column-reverse;
+  }
+  .text h2 {
+
+    width: 90%;
+    text-align: center;
+    font-size: 35px;
+}
+.text p{
+  width: 80%;
+  font-size: 14px;
+  text-align: center;
+  
+}
+.text-container{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.logos img{
+  margin-top: 2rem;
+}
+.logos{
+  height: 20rem;
+}
+.logo-container{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+
+.image-hero-section img{
+  width:300px;
+  margin-top: 3rem;
+}
+.testimony h4{
+  
+  font-size: 14px;
+  text-align: center;
+}
+.testimony h2 {
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+ 
+}
+.img-container img{
+  width: 300px;
+}
+.testimonials{
+    width: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.radial-gradient{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.radial-gradient h2{
+  margin-top: 0rem;
+}
+.btn-component.fourth{
+  width: 16rem;
+  margin-left: 0;
+  margin-top: 1rem;
+}
+.footer{
+  width: 100%;
+  display: grid;
+  
+}
+.lists{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.radial-gradient-two{
+  width: 100%;
+}
+.circletwo {
+ 
+  left: 0rem;
+  
+}
+.olivia{
+  width: 70%;
+}
+.olivia p{
+  width: 100%;
+}
+.btn-component.first{
+  width: 9rem;
+  font-size: 11px;
+}
+.btn-component.second{
+  width: 9rem;
+  font-size: 11px;
+}
+.btn-component.third{
+  width: 9rem;
+  font-size: 11px;
+}
+}
+
+
+@media (max-width : 460px){
+
+.circletwo{
+  width: 13rem;
+}
+
 }

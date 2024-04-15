@@ -19,7 +19,7 @@ function Home() {
   return (
     <div>
       <div>
-        <div className="circle"></div>
+        
         <div className="circletwo"></div>
       </div>
       <Navbar />
@@ -35,7 +35,7 @@ function Home() {
             <Button className="second">Sell Nfts</Button>
           </div>
         </div>
-        <div className="image-hero-section">
+        <div className="image-hero-section ">
           <img src={img} alt="hreo" />
         </div>
       </div>
@@ -48,8 +48,8 @@ function Home() {
           <img src={img4} alt="PH" />
         </div>
       </div>
-      <BodyContainer>
-        <div className="img-container">
+      <BodyContainer className="first">
+        <div className="img-container ">
           <img src={img5} alt="Analytics" />
         </div>
         <div className="text-container">
@@ -83,6 +83,7 @@ function Home() {
           <div className="testimony-people">
             <div className="testimonials">
             <div className="olivia">
+              <img className="girl" src={img7}  alt="girl"/>
               <h5>OLIVIA COLE</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
@@ -90,11 +91,12 @@ function Home() {
                 </p>
                 </div>
             </div>
-            <img className="girl" src={img7}  alt="girl"/>
+            
           </div>
           <div className="testimony-people">
             <div className="testimonials">
             <div className="olivia">
+              <img className="girl" src={img7} alt="girl"/>
               <h5>OLIVIA COLE</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
@@ -102,11 +104,12 @@ function Home() {
                 </p>
                 </div>
             </div>
-            <img className="girl" src={img7} alt="girl"/>
+            
           </div>
           <div className="testimony-people">
             <div className="testimonials">
               <div className="olivia">
+              <img className="girl" src={img7} alt="girl" />
               <h5>OLIVIA COLE</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
@@ -114,7 +117,7 @@ function Home() {
                 </p>
                 </div>
             </div>
-            <img className="girl" src={img7} alt="girl" />
+            
           </div>
         </div>
       </div>

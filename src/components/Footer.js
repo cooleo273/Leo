@@ -34,7 +34,7 @@ function Footer() {
           <Button className="fourth">submit</Button>
         </div>
       </div>
-      <div className="radial-gradient-two"></div>
+      
     </div>
   );
 }
