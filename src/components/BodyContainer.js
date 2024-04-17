@@ -1,20 +1,18 @@
-import React from 'react'
+import React from "react";
 
-function BodyContainer({type, variant, className, id, onClick, children}) {
+function BodyContainer({ type, variant, className, id, onClick, children }) {
   return (
     <div>
-        <div
-        type={type?type:"text"}
+      <div
+        type={type ? type : "text"}
         variant={variant}
-        className={className? `text ${className}` : "text"}
+        className={className ? `text ${className}` : "text"}
         id={id}
-        
-    >
+      >
         {children}
-        
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default BodyContainer
+export default BodyContainer;

@@ -21,7 +21,7 @@ function Home() {
       <div>
         <div className="circletwo"></div>
       </div>
-      <Navbar />
+      <Navbar/>
       <div className="Hero-section">
         <div className="text-hero-section">
           <h1>Discover And Collect Rare Nfts</h1>
