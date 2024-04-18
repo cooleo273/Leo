@@ -1,4 +1,4 @@
 [[redirects]]
-    from = “https://velvety-cheesecake-cd7895.netlify.app/”
+    from = “/about”
     to = “/index.html”
 status = 200
