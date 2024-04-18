@@ -34,7 +34,6 @@ function Footer() {
           <Button className="fourth">submit</Button>
         </div>
       </div>
-      
     </div>
   );
 }
