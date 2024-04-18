@@ -1,4 +1,4 @@
 [[redirects]]
-    from = “/about”
-    to = “/index.html”
+from = "/static/*"
+to = "/static/:splat"
 status = 200
