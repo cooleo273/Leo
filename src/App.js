@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <Router>
           <Routes>
-            <Route path="" exact element={<Home />}></Route>
+            <Route path="/" exact element={<Home />}></Route>
             <Route path="/about" exact element = {<About/>}></Route>
             <Route path="/pricing" exact element = {<Pricing/>}></Route>
             
