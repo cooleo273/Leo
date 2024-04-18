@@ -1,4 +1,4 @@
 [[redirects]]
-from = "/static/*"
-to = "/static/:splat"
+from = "/velvety-cheesecake-cd7895.netlify.app/"
+to = "/velvety-cheesecake-cd7895.netlify.app/pricing"
 status = 200

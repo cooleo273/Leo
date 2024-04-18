@@ -11,6 +11,7 @@ import img7 from "../images/monkey-g412399084_1280.webp";
 import img8 from "../images/metaverse-ai-generated-1775.jpg";
 import img9 from "../images/acaf98d.png";
 import img10 from "../images/pngwing.com (8).png"
+import TopCollections from "../components/topCollections";
 function Pricing() {
   return (
     <div>
@@ -21,77 +22,17 @@ function Pricing() {
       <div className="top-collections-wrapper">
         <h4>Top Collections</h4>
         <div className="nft-pics">
-          <div className="nft-img-wrapper">
-            
-            <img src={img} alt="nft-img"></img>
-            <div className="content">
-              <img src={img10} alt="verified"></img>
-              <p>Dark Lion</p>
-            </div>
-          </div>
-          <div className="nft-img-wrapper">
-            <img src={img1} alt="nft-img"></img>
-            <div className="content">
-            <img src={img10} alt="verified"></img>
-              <p>Dark Lion</p>
-            </div>
-          </div>
-          <div className="nft-img-wrapper">
-            <img src={img2} alt="nft-img"></img>
-            <div className="content">
-            <img src={img10} alt="verified"></img>
-              <p>Dark Lion</p>
-            </div>
-          </div>
-          <div className="nft-img-wrapper">
-            <img src={img3} alt="nft-img"></img>
-            <div className="content">
-            <img src={img10} alt="verified"></img>
-              <p>Dark Lion</p>
-            </div>
-          </div>
-          <div className="nft-img-wrapper">
-            <img src={img4} alt="nft-img"></img>
-            <div className="content">
-            <img src={img10} alt="verified"></img>
-              <p>Dark Lion</p>
-            </div>
-          </div>
-          <div className="nft-img-wrapper">
-            <img src={img5} alt="nft-img"></img>
-            <div className="content">
-            <img src={img10} alt="verified"></img>
-              <p>Dark Lion</p>
-            </div>
-          </div>
-          <div className="nft-img-wrapper">
-            <img src={img6} alt="nft-img"></img>
-            <div className="content">
-            <img src={img10} alt="verified"></img>
-              <p>Dark Lion</p>
-            </div>
-          </div>
-          <div className="nft-img-wrapper">
-            <img src={img7} alt="nft-img"></img>
-            <div className="content">
-            <img src={img10} alt="verified"></img>
-              <p>Dark Lion</p>
-            </div>
-          </div>
-          <div className="nft-img-wrapper">
-            <img src={img8} alt="nft-img"></img>
-            <div className="content">
-            <img src={img10} alt="verified"></img>
-              <p>Dark Lion</p>
-            </div>
-          </div>
-          <div className="nft-img-wrapper">
-            <img src={img9} alt="nft-img"></img>
-            <div className="content">
-            <img src={img10} alt="verified"></img>
-              <p>Dark Lion</p>
-            </div>
-          </div>
+        <TopCollections image = {img} image1 = {img10}  name = "Love" alt="Dark Love Nft"/>
+        <TopCollections image = {img1} image1 = {img10} name = "Love"/>
+        <TopCollections image = {img2} image1 = {img10} name = "Love"/>
+        <TopCollections image = {img3} image1 = {img10} name = "Love"/>
+        <TopCollections image = {img4} image1 = {img10} name = "Love"/>
+        <TopCollections image = {img5} image1 = {img10} name = "Love"/>
+        <TopCollections image = {img6} image1 = {img10} name = "Love"/>
+        <TopCollections image = {img7} image1 = {img10} name = "Love"/>
+        <TopCollections image = {img8} image1 = {img10} name = "Love"/>
+        <TopCollections image = {img9} image1 = {img10} name = "Love"/>
+          
         </div>
       </div>
     </div>
