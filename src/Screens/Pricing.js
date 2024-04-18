@@ -19,6 +19,7 @@ function Pricing() {
       </div>
       <Navbar />
       <div className="top-collections-wrapper">
+        <h4>Top Collections</h4>
         <div className="nft-pics">
           <div className="nft-img-wrapper">
             

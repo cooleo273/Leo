@@ -377,13 +377,17 @@ input {
 .top-collections-wrapper{
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
-
+.top-collections-wrapper h4{
+  color: white;
+  text-align: center;
+}
 
 .content:hover{
  
  opacity: 1;
+ cursor: pointer;
 
   
 }
