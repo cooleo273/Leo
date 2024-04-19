@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "https://velvety-cheesecake-cd7895.netlify.app"
-  to = "https://velvety-cheesecake-cd7895.netlify.app/pricing"
-  status = 301
-  
+  from = '/*'
+  to = 'index.html'
+  status = 200
+    
