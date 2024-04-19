@@ -1,5 +1,7 @@
 [[redirects]]
-  from = '/*'
-  to = '../krypto/public/index.html'
+  from = "/*"
+  to = "/index.html"
   status = 200
+  force = false
+
     
