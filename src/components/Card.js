@@ -6,7 +6,7 @@ function Card(props) {
   return (
     <div className='card-wrapper'>
         <div className='nft-image-wrapper'>
-            <img src={props.image} alt='nft-image'/>
+            <img src={props.image} alt='nft'/>
         </div>
         <div className='nft-description-wrapper'>
             <p>{props.nftName}</p>
