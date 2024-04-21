@@ -6,7 +6,7 @@ import Button from "../components/Button";
 import img from "../images/Other 07.png";
 import img1 from "../images/image 5.png";
 import img2 from "../images/image 6.png";
-import img3 from "../images/image 7.png";
+
 import img4 from "../images/image 8.png";
 import img5 from "../images/Other 18.png";
 import img6 from "../images/Other 17.png";
