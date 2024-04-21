@@ -30,7 +30,7 @@ function About() {
         </div>
         <div className="text-container">
           <h4>GET OUR APP</h4>
-          <h2>Browse Nfts From Your Smartphones</h2>
+          <h2>Browse Nfts From Your Smartphone</h2>
           <p>
             Our Krypto app is the easiest way to keep track of your assets when
             you’re on the go.
