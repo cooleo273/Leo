@@ -55,6 +55,16 @@ a {
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
 }
+.btn-component.first.card{
+  background-color: #8a8ada;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 30px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+} 
 .btn-component.second {
   background-color: transparent;
   width: 12rem;
@@ -79,7 +89,6 @@ a {
 .text-hero-section {
   color: white;
   display: grid;
-  
 }
 .text-hero-section p {
   font-family: "Roboto", sans-serif;
@@ -173,7 +182,7 @@ a {
 .img-container {
   flex: 1;
 }
-.testimony{
+.testimony {
   display: grid;
   gap: 2.5rem;
 }
@@ -230,7 +239,7 @@ a {
   justify-items: center;
   gap: 1rem;
 }
-.text-container.second{
+.text-container.second {
   margin-left: 5rem;
 }
 .olivia p {
@@ -283,9 +292,8 @@ a {
 .krypto {
   flex: 2;
   display: flex;
-    justify-content: center;
-    align-items: center;
-
+  justify-content: center;
+  align-items: center;
 }
 .logo h3 {
   margin: 0rem;
@@ -323,23 +331,22 @@ input {
   justify-content: center;
 }
 
-.nft-pics{
+.nft-pics {
   display: grid;
-  grid-template-columns: repeat(10, 1fr );
+  grid-template-columns: repeat(10, 1fr);
   overflow-x: auto;
   gap: 2rem;
   padding: 1rem 3rem;
   overscroll-behavior-inline: contain;
- 
 }
-.nft-pics img{
+.nft-pics img {
   inline-size: 100%;
   aspect-ratio: 16/16;
   object-fit: cover;
   width: 150px;
   border-radius: 50%;
 }
-.nft-pics::-webkit-scrollbar{
+.nft-pics::-webkit-scrollbar {
   width: 0;
 }
 
@@ -360,7 +367,7 @@ input {
   border-radius: 3px;
   margin-top: 7rem;
 }
-.content{
+.content {
   display: flex;
   flex-direction: row;
   gap: 7px;
@@ -376,30 +383,66 @@ input {
   width: 100%;
   height: 97%;
   border-radius: 50%;
-
 }
 
-.content img{
+.content img {
   width: 20px;
 }
-.nft-img-wrapper{
+.nft-img-wrapper {
   position: relative;
 }
-.top-collections-wrapper{
+.top-collections-wrapper {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-left: 3rem;
 }
-.top-collections-wrapper h4{
+.top-collections-wrapper h3 {
   color: white;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
-.drop-down{
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 2rem 5rem;
+  gap: 4rem;
+}
+.nft-cards h3{
+  text-align: center;
+  color: white;
+}
+.nft-image-wrapper img{
+  width: 220px;
+  border-radius: 10px;
+}
+.nft-image-wrapper{
+  margin-top: 1rem;
+}
+.nft-description-wrapper{
+  color: white;
+  width: 76%;
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+}
+.drop-down {
   min-width: 15rem;
   position: relative;
   color: white;
 }
-.select{
+.card-wrapper{
+  display: grid;
+  justify-items: center;
+  background-color: #40407e82;
+  gap: 1rem;
+  border-radius: 10px;
+}
+.creator-wrapper{
+  display: grid;
+  grid-template-columns: 4fr 1fr ;
+}
+.select {
   background-color: #2a2f3b;
   display: flex;
   justify-content: space-between;
@@ -411,14 +454,14 @@ input {
   transition: background 0.3s;
 }
 
-.select-clicked{
+.select-clicked {
   border: 2px #26489a solid;
   box-shadow: 0 0 0.8 #26489a;
 }
-.select:hover{
+.select:hover {
   background: #323741;
 }
-.caret{
+.caret {
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
@@ -426,52 +469,49 @@ input {
   border-top: 6px solid #fff;
   transition: 0.3s;
 }
-.caret-rotate{
+.caret-rotate {
   transform: rotate(180deg);
 }
-.menu{
+.menu {
   list-style: none;
   padding: 0.2rem 0.5rem;
   background: #323741;
   border: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
   color: white;
-  
+
   opacity: 0;
   display: none;
   transition: 0.2s;
   z-index: 1;
 }
-.menu li{
-  padding: 0.7rem 0.5rem ;
+.menu li {
+  padding: 0.7rem 0.5rem;
   margin: 0.3rem 0;
   border-radius: 0.5rem;
   cursor: pointer;
 }
-.menu li:hover{
+.menu li:hover {
   background: #2a2d35;
 }
-.active{
+.active {
   background: #23242a;
 }
-.menu-open{
+.menu-open {
   display: block;
   opacity: 1;
 }
-.drop-down *{
+.drop-down * {
   box-sizing: border-box;
 }
 
-.content:hover{
- 
- opacity: 1;
- cursor: pointer;
-
-  
+.content:hover {
+  opacity: 1;
+  cursor: pointer;
 }
-.text-container{
+.text-container {
   display: grid;
-  gap:  1.5rem
+  gap: 1.5rem;
 }
 
 .nft-img-wrapper p::after {
@@ -489,12 +529,11 @@ input {
   visibility: visible;
   opacity: 1;
 }
-.olivia{
+.olivia {
   display: grid;
   gap: 1rem;
   justify-items: center;
 }
-
 
 @media (max-width: 1024px) {
   body {
@@ -504,7 +543,7 @@ input {
     display: flex;
 
     flex-direction: column;
-
+    padding: 0rem;
     align-items: center;
   }
   .text-hero-section {
@@ -512,6 +551,9 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .text-container.second {
+    margin: 0rem;
   }
   .text-hero-section h1 {
     text-align: center;
@@ -537,20 +579,22 @@ input {
     flex-direction: column-reverse;
   }
   .text h2 {
-    width: 90%;
+    width: 50%;
     text-align: center;
     font-size: 35px;
   }
   .text p {
-    width: 80%;
+    width: 48%;
     font-size: 14px;
     text-align: center;
+  }
+  input {
+    margin-top: 1rem;
   }
   .text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
   .logos img {
     margin-top: 2rem;
@@ -573,6 +617,9 @@ input {
     font-size: 14px;
     text-align: center;
   }
+  .radial-gradient P {
+    padding-top: 0rem;
+  }
   .testimony h2 {
     font-size: 25px;
     display: flex;
@@ -594,9 +641,13 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
   .radial-gradient h2 {
     margin-top: 0rem;
+    padding-top: 0rem;
+    width: 48%;
   }
   .btn-component.fourth {
     width: 16rem;
@@ -640,6 +691,12 @@ input {
 @media (max-width: 520px) {
   p {
     font-size: 12px !important;
+  }
+  .text h2 {
+    width: 90%;
+  }
+  .text p {
+    width: 80%;
   }
   .circletwo {
     width: 13rem;

@@ -10,9 +10,10 @@ import img6 from "../images/The-Rise-of-NFTs-How-Will-AI-Impact-the-NFT-Art-Ecos
 import img7 from "../images/monkey-g412399084_1280.webp";
 import img8 from "../images/metaverse-ai-generated-1775.jpg";
 import img9 from "../images/acaf98d.png";
-import img10 from "../images/pngwing.com (8).png"
+import img10 from "../images/pngwing.com (8).png";
 import TopCollections from "../components/topCollections";
 import Sidebar from "../components/Sidebar";
+import Card from "../components/Card";
 function Pricing() {
   return (
     <div>
@@ -21,23 +22,65 @@ function Pricing() {
       </div>
       <Navbar />
       <div className="top-collections-wrapper">
-        <h4>Top Collections</h4>
+        <h3>Top Collections</h3>
         <div className="nft-pics">
-        <TopCollections image = {img} image1 = {img10}  name = "Love" alt="Dark Love Nft"/>
-        <TopCollections image = {img1} image1 = {img10} name = "Love"/>
-        <TopCollections image = {img2} image1 = {img10} name = "Love"/>
-        <TopCollections image = {img3} image1 = {img10} name = "Love"/>
-        <TopCollections image = {img4} image1 = {img10} name = "Love"/>
-        <TopCollections image = {img5} image1 = {img10} name = "Love"/>
-        <TopCollections image = {img6} image1 = {img10} name = "Love"/>
-        <TopCollections image = {img7} image1 = {img10} name = "Love"/>
-        <TopCollections image = {img8} image1 = {img10} name = "Love"/>
-        <TopCollections image = {img9} image1 = {img10} name = "Love"/>
-          
+          <TopCollections
+            image={img}
+            image1={img10}
+            name="Love"
+            alt="Dark Love Nft"
+          />
+          <TopCollections image={img1} image1={img10} name="Love" />
+          <TopCollections image={img2} image1={img10} name="Love" />
+          <TopCollections image={img3} image1={img10} name="Love" />
+          <TopCollections image={img4} image1={img10} name="Love" />
+          <TopCollections image={img5} image1={img10} name="Love" />
+          <TopCollections image={img6} image1={img10} name="Love" />
+          <TopCollections image={img7} image1={img10} name="Love" />
+          <TopCollections image={img8} image1={img10} name="Love" />
+          <TopCollections image={img9} image1={img10} name="Love" />
         </div>
+      </div>
+      <div className="nft-cards">
+        <h3>NFT CARDS</h3>
+      <div className="cards">
         
+        <Card
+          image={img}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+        <Card
+          image={img}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+        <Card
+          image={img}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+        <Card
+          image={img}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+      </div>
       </div>
     </div>
+
   );
 }
 
