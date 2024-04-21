@@ -12,7 +12,7 @@ function About() {
       </div>
       <Navbar />
       <BodyContainer>
-        <div className="text-container">
+        <div className="text-container second">
           <h4>GET OUR APP</h4>
           <h2>Browse Nfts From Your Smartphone</h2>
           <p>

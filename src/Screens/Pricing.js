@@ -12,6 +12,7 @@ import img8 from "../images/metaverse-ai-generated-1775.jpg";
 import img9 from "../images/acaf98d.png";
 import img10 from "../images/pngwing.com (8).png"
 import TopCollections from "../components/topCollections";
+import Sidebar from "../components/Sidebar";
 function Pricing() {
   return (
     <div>
@@ -34,6 +35,7 @@ function Pricing() {
         <TopCollections image = {img9} image1 = {img10} name = "Love"/>
           
         </div>
+        
       </div>
     </div>
   );

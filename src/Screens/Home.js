@@ -43,7 +43,6 @@ function Home() {
         <div className="logos">
           <img src={img1} alt="forbes" />
           <img src={img2} alt="fast company" />
-          <img src={img3} alt="tech-crunch" />
           <img src={img4} alt="PH" />
         </div>
       </div>
@@ -62,7 +61,7 @@ function Home() {
         </div>
       </BodyContainer>
       <BodyContainer>
-        <div className="text-container">
+        <div className="text-container second">
           <h4>GET OUR APP</h4>
           <h2>Browse Nfts From Your Smartphone</h2>
           <p>
