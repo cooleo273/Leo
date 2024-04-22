@@ -56,15 +56,27 @@ a {
   font-size: 0.9rem;
 }
 .btn-component.first.card{
-  background-color: #8a8ada;
+  background-color: black;
   width: 12rem;
   height: 4rem;
   border-radius: 30px;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  border: none;
 } 
+.card-wrapper:hover{
+  background-color: rgba(135, 121, 202, 0.385);;
+}
+.description{
+  color: #d7cff5;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+.card-wrapper p{
+  font-family: "Montserrat", sans-serif;
+}
 .btn-component.second {
   background-color: transparent;
   width: 12rem;
@@ -391,20 +403,30 @@ input {
 .nft-img-wrapper {
   position: relative;
 }
-.top-collections-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-left: 3rem;
+.nft-image-wrapper img{
+  inline-size: 100%;
+  aspect-ratio: 16 / 16;
+  object-fit: cover;
+  width: 150px;
+  border-radius: 50%; 
+}
+
+.card-one{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));  
+  gap: 2rem;
 }
 .top-collections-wrapper h3 {
   color: white;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
+.top-collections-wrapper{
+  display: grid;
+  gap: 2rem;
+}
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 2rem 5rem;
   gap: 4rem;
 }
@@ -434,7 +456,7 @@ input {
 .card-wrapper{
   display: grid;
   justify-items: center;
-  background-color: #40407e82;
+  background-color: #40407e21;
   gap: 1rem;
   border-radius: 10px;
 }

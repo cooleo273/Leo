@@ -10,14 +10,14 @@ function Card(props) {
         </div>
         <div className='nft-description-wrapper'>
             <p>{props.nftName}</p>
-            <p>{props.nftDescription}</p>
+            <p className='description'>{props.nftDescription}</p>
             <div className='creator-wrapper'>
             <div>
-                <p>creator</p>
+                <p className='description'>creator</p>
                 <p>{props.creator}</p>
             </div>
             <div>
-                <p>creator</p>
+                <p className='description'>creator</p>
                 <p>{props.currentBid}</p>
             </div>
             </div>

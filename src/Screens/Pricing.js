@@ -44,7 +44,7 @@ function Pricing() {
       <div className="nft-cards">
         <h3>NFT CARDS</h3>
       <div className="cards">
-        
+        <div className="card-one">
         <Card
           image={img}
           nftName="Astronaut"
@@ -54,13 +54,31 @@ function Pricing() {
           currentBid="$25"
         />
         <Card
-          image={img}
+          image={img1}
           nftName="Astronaut"
           nftDescription="Astronaut, designation, derived from the 
           Greek words for "
           creator="undead  space apes"
           currentBid="$25"
         />
+        <Card
+          image={img2}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+        <Card
+          image={img4}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+        </div>
+        <div className="card-one">
         <Card
           image={img}
           nftName="Astronaut"
@@ -70,6 +88,32 @@ function Pricing() {
           currentBid="$25"
         />
         <Card
+          image={img1}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+        <Card
+          image={img2}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+        <Card
+          image={img4}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+        </div>
+        <div className="card-one">
+        <Card
           image={img}
           nftName="Astronaut"
           nftDescription="Astronaut, designation, derived from the 
@@ -77,6 +121,31 @@ function Pricing() {
           creator="undead  space apes"
           currentBid="$25"
         />
+        <Card
+          image={img1}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+        <Card
+          image={img2}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+        <Card
+          image={img4}
+          nftName="Astronaut"
+          nftDescription="Astronaut, designation, derived from the 
+          Greek words for "
+          creator="undead  space apes"
+          currentBid="$25"
+        />
+        </div>
       </div>
       </div>
     </div>
