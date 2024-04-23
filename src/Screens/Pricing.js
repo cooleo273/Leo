@@ -14,13 +14,14 @@ import img10 from "../images/pngwing.com (8).png";
 import TopCollections from "../components/topCollections";
 
 import Card from "../components/Card";
+import About from "./About";
 function Pricing() {
   return (
     <div>
       <div>
         <div className="circletwo"></div>
       </div>
-      <Navbar />
+      <Navbar navlistone="Home" path1 ="/" navlisttwo="About" path2="/about" navlistthree="contact" path3="/about" navlistfour="Buy NFTs" path4="/Buynfts"/>
       <div className="top-collections-wrapper">
         <h3>Top Collections</h3>
         <div className="nft-pics">

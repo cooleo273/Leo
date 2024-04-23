@@ -10,7 +10,7 @@ function About() {
       <div>
         <div className="circletwo"></div>
       </div>
-      <Navbar />
+      <Navbar navlistone="Home" path1="/" navlisttwo="Pricing" path2 ="/pricing" navlistthree="contact" path3="/contact" navlistfour="Buy NFTs" path4="/Buynfts"/>
       <BodyContainer>
         <div className="text-container second">
           <h4>GET OUR APP</h4>

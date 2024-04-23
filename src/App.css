@@ -56,7 +56,7 @@ a {
   font-size: 0.9rem;
 }
 .btn-component.first.card{
-  background-color: black;
+  background-color: #040015;
   width: 12rem;
   height: 4rem;
   border-radius: 30px;
@@ -67,7 +67,7 @@ a {
   border: none;
 } 
 .card-wrapper:hover{
-  background-color: rgba(135, 121, 202, 0.385);;
+      background-color: rgb(158 138 255 / 11%);
 }
 .description{
   color: #d7cff5;

@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router";
 
 function Button({ type, variant, className, id, onClick, children, img }) {
+
+  let navigate = useNavigate();
   return (
     <button
       type={type ? type : "button"}
@@ -8,7 +11,9 @@ function Button({ type, variant, className, id, onClick, children, img }) {
       className={className ? `btn-component ${className}` : "btn-component"}
       id={id}
       img={img}
+      onClick={onClick}
     >
+
       {children}
     </button>
   );

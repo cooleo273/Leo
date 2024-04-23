@@ -14,14 +14,18 @@ import img7 from "../images/Screen Shot 2022-05-09 at 10.28.png";
 
 import BodyContainer from "../components/BodyContainer";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
+
 
 function Home() {
+
+let navigate = useNavigate();
   return (
     <div>
       <div>
         <div className="circletwo"></div>
       </div>
-      <Navbar/>
+      <Navbar navlistone="About" path1="/about" navlisttwo="Pricing" path2 ="/pricing" navlistthree="contact" path3="/contact" navlistfour="Buy NFTs" path4="/Buynfts"/>
       <div className="Hero-section">
         <div className="text-hero-section">
           <h1>Discover And Collect Rare Nfts</h1>
@@ -57,7 +61,9 @@ function Home() {
             Use our built-in analytics dashboard to pull valuable insights and
             monitor the value of your Krypto portfolio over time.
           </p>
-          <Button className="first">VIEW OUR PRINCING</Button>
+          <Button type='button' className="first" onClick={()=>
+            navigate('/pricing')
+          }>VIEW OUR PRINCING</Button>
         </div>
       </BodyContainer>
       <BodyContainer>
