@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import "../App.css";
-import { useNavigate } from "react-router-dom";
+
 import Modal from "react-modal";
 
 const customStyles = {
@@ -12,6 +12,7 @@ const customStyles = {
       bottom: 'auto',
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
+      
     },
     
   };
@@ -19,8 +20,7 @@ const customStyles = {
 
 
 function Card(props) {
-  let navigate = useNavigate;
-  let subtitle;
+  
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
   function openModal() {
@@ -65,7 +65,7 @@ function Card(props) {
         >
           <button onClick={closeModal}>close</button>
           <div className="modal-content-wrapper">
-            <img src={props.image}></img>
+            <img src={props.image} alt="modal-nft"></img>
             <p>{props.nftName}</p>
           </div>
           
