@@ -14,14 +14,15 @@ import img10 from "../images/pngwing.com (8).png";
 import TopCollections from "../components/topCollections";
 
 import Card from "../components/Card";
-import About from "./About";
+
+
 function Pricing() {
   return (
     <div>
       <div>
         <div className="circletwo"></div>
       </div>
-      <Navbar navlistone="Home" path1 ="/" navlisttwo="About" path2="/about" navlistthree="contact" path3="/about" navlistfour="Buy NFTs" path4="/Buynfts"/>
+      <Navbar navlistone="Home" path1 ="/" navlisttwo="About" path2="/about" navlistthree="contact" path3="/contact" navlistfour="Buy NFTs" path4="/Buynfts"/>
       <div className="top-collections-wrapper">
         <h3>Top Collections</h3>
         <div className="nft-pics">
@@ -132,11 +133,11 @@ function Pricing() {
         />
         <Card
           image={img2}
-          nftName="Astronaut"
-          nftDescription="Astronaut, designation, derived from the 
-          Greek words for "
+          nftName="Artistic Women"
+          nftDescription=" something that is created with imagination and 
+          skill and that is beautiful or that expresses important ideas or feelings."
           creator="undead  space apes"
-          currentBid="$25"
+          currentBid="$35"
         />
         <Card
           image={img4}

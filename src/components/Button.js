@@ -1,9 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router";
+
 
 function Button({ type, variant, className, id, onClick, children, img }) {
 
-  let navigate = useNavigate();
+  
   return (
     <button
       type={type ? type : "button"}

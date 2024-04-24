@@ -462,7 +462,7 @@ input {
 }
 .creator-wrapper{
   display: grid;
-  grid-template-columns: 4fr 1fr ;
+  grid-template-columns: 5  fr 1fr ;
 }
 .select {
   background-color: #2a2f3b;
@@ -555,6 +555,23 @@ input {
   display: grid;
   gap: 1rem;
   justify-items: center;
+}
+.modal-content-wrapper img{
+    width: 500px;
+}
+.modal-content-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  
+}
+.ReactModal__Content.ReactModal__Content--after-open{
+  background-color: #010233 !important;
+  border: none !important ;
+  border-radius: 10px !important;
+
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open{
+  background-color: rgb(165 172 245 / 47%) !important;
 }
 
 @media (max-width: 1024px) {
