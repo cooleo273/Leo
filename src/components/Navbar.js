@@ -10,7 +10,7 @@ function Navbar(props) {
       <div className="list">
         <a href={props.path1}>{props.navlistone}</a>
         <a href={props.path2}>{props.navlisttwo}</a>
-        <a href={props.path3}>{props.navlistthree}</a>  
+        <a href={props.path3}>{props.navlistthree}</a>
         <a href={props.path4}>{props.navlistfour}</a>
       </div>
     </div>

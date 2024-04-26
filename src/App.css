@@ -256,7 +256,8 @@ a {
 }
 .olivia p {
   padding: 0rem 1rem;
-
+  font-weight: 200;
+  line-height: 1.5em;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
@@ -446,7 +447,25 @@ input {
   width: 76%;
   display: grid;
   gap: 1rem;
-  justify-items: center;
+  
+}
+.highest-bid{
+  line-height: 2rem;
+}
+.highest-bid p{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  gap: 1rem;
+}
+.nft-description-wrapper.modal{
+  gap: 0rem;
+}
+.highest-bid span{
+  color:  #d7cff5;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  gap: 1rem;
 }
 .drop-down {
   min-width: 15rem;
@@ -557,7 +576,11 @@ input {
   justify-items: center;
 }
 .modal-content-wrapper img{
-    width: 500px;
+  inline-size: 100%;
+  aspect-ratio: 16 / 16;
+  object-fit: cover;
+  width: 500px;
+  border-radius: 15px; 
 }
 .modal-content-wrapper{
   display: grid;
@@ -568,6 +591,7 @@ input {
   background-color: #010233 !important;
   border: none !important ;
   border-radius: 10px !important;
+  width: 80%;
 
 }
 .ReactModal__Overlay.ReactModal__Overlay--after-open{
