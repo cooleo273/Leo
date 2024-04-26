@@ -3,7 +3,7 @@ import Button from "./Button";
 import "../App.css";
 
 import Modal from "react-modal";
-import CloseButton from 'react-bootstrap/CloseButton';
+
 
 const customStyles = {
   content: {
