@@ -25,6 +25,7 @@ function Card(props) {
 
   function afterOpenModal() {
     // references are now sync'd and can be accessed.
+    <div>eihfiqeh</div>
   }
 
   function closeModal() {
