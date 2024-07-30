@@ -1,6 +1,6 @@
-# Project Name
+# Krypto
 
-Welcome to **Project Name**, a web application bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Krypto**, a web application bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Table of Contents
 
