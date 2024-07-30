@@ -10,12 +10,9 @@ Welcome to **Project Name**, a web application bootstrapped with [Create React A
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the App](#running-the-app)
-- [Available Scripts](#available-scripts)
 - [Deployment](#deployment)
 - [Learn More](#learn-more)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -36,6 +33,7 @@ Ensure you have the following software installed:
 
 - [Node.js](https://nodejs.org/) (>= 14.x)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
+- [react](https://react.dev/)
 
 ### Installation
 
